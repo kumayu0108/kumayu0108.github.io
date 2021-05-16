@@ -133,13 +133,21 @@ section {
     text-decoration: none;
     font-size: 1.8rem;
     color: #fff;
-    background-color: #293335;
+    /* background-color: #293335; */
     padding: 1.5rem 4rem;
     border: 1px solid #293335;
     border-radius: 10rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .17);
     transition: all .2s;
     margin-top: 2.2rem
+}
+
+.black_bg {
+    background-color: #293335;
+}
+
+.white_txt {
+    color: darkgray;
 }
 
 @media (min-width:768px) {
@@ -187,6 +195,7 @@ section {
     opacity: .7;
     color: #fff;
     border: 1px solid #fff;
+    text-emphasis-color: rgb(255, 255, 255);
     /* background-color: transparent */
 }
 
@@ -474,7 +483,7 @@ section {
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)), url(IMG_20210304_135829.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url(IMG_20210304_135829.jpg);
     background-size: cover;
     background-position: 50%;
     text-align: center
@@ -659,7 +668,7 @@ section {
 }
 
 .work [href^=http] {
-    color: inherit;
+    /* color: inherit; */
     text-decoration: none;
     border-bottom: 1px dashed #bdbcbc;
     transition: all .2s
